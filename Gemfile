@@ -2,5 +2,6 @@
 source "https://rubygems.org"
 
 gem 'pry' # for debugging
-gem 'pg'
-gem 'activerecord', '4.2.6'
+gem 'pg', '~> 1.1'
+gem 'activerecord', '~> 6.1'
+gem 'bigdecimal', '3.0.2'
